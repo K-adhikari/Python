@@ -1,0 +1,1 @@
+This file contains codes I wrote in python as a part of the assignment when I was taking 'Learn to Program: The Fundamentals' in Coursera. It contains multiple functions to perform string manipulations in a DNA sequence.
