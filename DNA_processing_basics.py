@@ -30,7 +30,6 @@ def is_longer(dna1, dna2):
     return len(dna1) > len(dna2)
 
 
-
    
 #Count the appearance of a specific nucleotide in a given sequence
 
@@ -49,7 +48,6 @@ def count_nucleotides(dna, nucleotide):
         if sequence == nucleotide:
             count = count + 1
     return count
-
 
 
 
@@ -95,7 +93,6 @@ def is_valid_sequence(dna):
         
 
 
-
 #Insert second sequence into the first at a defined index position
 
 def insert_sequence(dna1, dna2, index):
@@ -111,7 +108,6 @@ def insert_sequence(dna1, dna2, index):
     ATCGTAGC
     """
     return dna1[:index] + dna2 + dna1[index:]
-
 
 
 
@@ -202,5 +198,24 @@ def get_reverse_complementary_sequence(dna):
 
 
 
+#Get GC content of a given sequence
+def GC_content(dna):
+    """ (str) -> float
 
+    Return GC content from a given dna sequence.
+
+    >>> GC_content('AT')
+    0
+    >>> GC_content('TGC')
+    0.6667
+    >>> GC_content('CGTAGCGACGTAGCGATGC')
+    0.6315
+    """
+    GC_count = 0
+    for sequence in dna:
+        if sequence in 'GC':
+            GC_count = GC_count + 1
+        
+            
+    return GC_count / len(dna)
 
