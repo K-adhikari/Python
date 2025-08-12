@@ -1,4 +1,4 @@
-#Get length of a DNA sequence
+# Get length of a DNA sequence
 
 def get_length(dna):
     """ (str) -> int
@@ -31,7 +31,7 @@ def is_longer(dna1, dna2):
 
 
    
-#Count the appearance of a specific nucleotide in a given sequence
+# Count the appearance of a specific nucleotide in a given sequence
 
 def count_nucleotides(dna, nucleotide):
     """ (str, str) -> int
@@ -51,7 +51,7 @@ def count_nucleotides(dna, nucleotide):
 
 
 
-#Check if second sequence is a part of the first sequence
+# Check if second sequence is a part of the first sequence
 
 def contains_sequence(dna1, dna2):
     """ (str, str) -> bool
@@ -69,7 +69,7 @@ def contains_sequence(dna1, dna2):
 
 
 
-#Check if the given sequence is a valid sequence. Assumes only presence of 'A', 'T', 'C' and 'G' and not small case characters for the nucleotides
+# Check if the given sequence is a valid sequence. Assumes only presence of 'A', 'T', 'C' and 'G' and not small case characters for the nucleotides
 
 def is_valid_sequence(dna):
     """ (str) -> bool
@@ -93,7 +93,7 @@ def is_valid_sequence(dna):
         
 
 
-#Insert second sequence into the first at a defined index position
+# Insert second sequence into the first at a defined index position
 
 def insert_sequence(dna1, dna2, index):
     """ (str, str, int) -> str
@@ -111,7 +111,7 @@ def insert_sequence(dna1, dna2, index):
 
 
 
-#Get complement of a given nucleotide
+# Get complement of a given nucleotide
 
 def get_complement(nucleotide):
     """ (str) -> str
@@ -138,7 +138,7 @@ def get_complement(nucleotide):
 
 
 
-#Get complementary sequence of a given sequence
+# Get complementary sequence of a given sequence
 
 def get_complementary_sequence(dna):
     """ (str) -> str
@@ -169,7 +169,7 @@ def get_complementary_sequence(dna):
 
 
 
-#Get reverse complement of a given sequence
+# Get reverse complement of a given sequence
 
 def get_reverse_complementary_sequence(dna):
     """ (str) -> str
@@ -198,7 +198,7 @@ def get_reverse_complementary_sequence(dna):
 
 
 
-#Get GC content of a given sequence
+# Get GC content of a given sequence
 def GC_content(dna):
     """ (str) -> float
 
