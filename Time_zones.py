@@ -62,7 +62,6 @@ def to_float_hours(hours, minutes, seconds):
     
 
 
-
 # Calculate the number of hours since midnight as seen on a 24-hour clock
 
 def to_24_hour_clock(hours):
@@ -89,7 +88,6 @@ def to_24_hour_clock(hours):
 
 
 
-
 # Calculate the numbers of hours, minutes, and seconds since midnight from provided time in seconds. e.g. 3800 seconds will be 01:03:20 (hh:mm:ss)
 
 def get_hours(seconds):
@@ -110,8 +108,6 @@ def get_hours(seconds):
     1
     """
     return seconds // 3600
-
-
 
 
 
@@ -136,8 +132,6 @@ def get_minutes(seconds):
 
 
 
-
-
 def get_seconds(seconds):
     """ (int) -> int
 
@@ -156,7 +150,6 @@ def get_seconds(seconds):
     40
     """
     return seconds % 60
-
 
 
 
@@ -182,7 +175,6 @@ def time_to_utc(utc_offset, time):
     0.0
     """
     return (time - utc_offset) % 24
-
 
 
 
