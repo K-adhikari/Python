@@ -17,3 +17,17 @@ Time_zones.py contains functions to:
 - Convert time given in seconds to hours, minutes, and seconds
 - Convert time to UTC
 - Convert time from UTC
+
+
+Word_search.py contains codes to implement a word search game. The script contains functions to:
+- Check whether a guessed word is valid
+- Create a string from the lost of single character strings representing a row
+- Create a string from the lost of single character strings representing a column
+- Check whether a word occurs in any of the rows
+- Check whether a word occurs in any of the columns
+- Check whether a word occurs in any of the rows or columns
+- Calculate the score for a correctly guessed word
+- Update score to a player's score
+- Count the number of words from the list that appear on the board
+- Create a words list made up of the words from a file
+- Create a board made up of the rows of letters from a file
