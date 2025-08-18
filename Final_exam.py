@@ -24,9 +24,7 @@ def reverse(s):
 
 
 
-
 # Check if both words start with same letters
-
 
 def both_start_with(s1, s2, prefix):
     '''(str, str, str) -> bool
@@ -37,9 +35,7 @@ def both_start_with(s1, s2, prefix):
 
 
 
-
 # Check if all integers in L1 are the lengths of strings in L2 at corresponding positions 
-
 
 def are_lengths_of_strs(L1, L2):
     '''(list of int, list of str) -> bool
@@ -62,9 +58,7 @@ def are_lengths_of_strs(L1, L2):
 
 
 
-
 # Return a tuple where negative and non-negative numbers are in separate lists
-
 
 def get_negative_nonnegative_lists(L):
     '''(list of list of int) -> tuple of (list of int, list of int)
@@ -94,7 +88,6 @@ def get_negative_nonnegative_lists(L):
 
 
 # Add the letter counts from a word to the dictionary
-
 
 def add_to_letter_counts(d, s):
     '''(dict of {str: int}, str) -> NoneType
