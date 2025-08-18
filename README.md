@@ -31,3 +31,11 @@ Word_search.py contains codes to implement a word search game. The script contai
 - Count the number of words from the list that appear on the board
 - Create a words list made up of the words from a file
 - Create a board made up of the rows of letters from a file
+
+
+Final_exam.py contains functions to:
+- Get the reverse of a string
+- Check if given two words start with same letters
+- Check if all integers in first list denote the lengths of strings in the second list
+- Return a tuple where negative and non-negative numbers are in separate lists
+- Add the letter counts from a word to the dictionary
