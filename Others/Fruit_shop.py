@@ -1,4 +1,5 @@
-# Make a dictionary called 'price'
+# Make a dictionary called 'price'.
+
 prices = {
   "banana" : 4,
   "apple"  : 2,
@@ -6,13 +7,16 @@ prices = {
   "pear"   : 3,
 }
 
-# Make a second dictionary called 'stock
+
+# Make a second dictionary called 'stock'.
+
 stock = {
   "banana" : 6,
   "apple"  : 0,
   "orange" : 32,
   "pear"   : 15,
 }
+
 
 # Print price and stock for each fruit
 for key in prices:
