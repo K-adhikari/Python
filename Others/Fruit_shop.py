@@ -18,13 +18,16 @@ stock = {
 }
 
 
-# Print price and stock for each fruit
+# Print price and stock for each fruit.
+
 for key in prices:
   print key
   print "price: %s" % prices[key]
   print "stock: %s" % stock[key]
 
-# Calculate how much money you make if you sold all
+
+# Calculate how much money you make if you sold all.
+
 total = 0
 for key in prices:
   money = prices[key] * stock[key]
