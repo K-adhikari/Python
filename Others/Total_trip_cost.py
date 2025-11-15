@@ -1,3 +1,5 @@
+""" This code calculates the trip cost based on city, number of days, and expenditures. """
+
 def hotel_cost(nights):
   return 140 * nights
 
