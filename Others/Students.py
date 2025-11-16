@@ -1,4 +1,4 @@
-#Create three dictionaries each for one student
+# Create three dictionaries each for one student
 
 lloyd = {
   "name": "Lloyd",
@@ -19,11 +19,14 @@ tyler = {
   "tests": [100.0, 100.0]
 }
 
+
 # Put the dictionaries in a list
+
 students = [lloyd, alice, tyler]
 
 
 # Print name, homework, quizzes, and tests for each student from the list
+
 for student in students:
   for key, value in student.items():
     print("{}".format(value))
@@ -35,6 +38,7 @@ def average(numbers):
   average_value = total / len(numbers)
   return average_value
 
+
 # Get average and return the weighted values with 10% from homework, 30% from quizzes, and 60% from tests
 def get_average(student):
   homework = average(student["homework"])
@@ -42,6 +46,7 @@ def get_average(student):
   tests = average(student["tests"])
 
   return homework * 0.1 + quizzes * 0.3 + tests * 0.6
+  
 
 # Write new function for letter grade
 
@@ -58,6 +63,7 @@ def get_letter_grade(score):
     return "F"
 
 # Get the letter grade for each student
+
 print (get_letter_grade(get_average(lloyd)))
 print (get_letter_grade(get_average(alice)))
 print (get_letter_grade(get_average(tyler)))
