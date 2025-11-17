@@ -1,4 +1,4 @@
-# Create three dictionaries each for one student
+# Create three dictionaries each for one student.
 
 lloyd = {
   "name": "Lloyd",
@@ -20,19 +20,19 @@ tyler = {
 }
 
 
-# Put the dictionaries in a list
+# Put the dictionaries in a list.
 
 students = [lloyd, alice, tyler]
 
 
-# Print name, homework, quizzes, and tests for each student from the list
+# Print name, homework, quizzes, and tests for each student from the list.
 
 for student in students:
   for key, value in student.items():
     print("{}".format(value))
 
 
-# Write a function to calculate average
+# Write a function to calculate average.
 
 def average(numbers):
   total = float(sum(numbers))
