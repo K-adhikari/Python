@@ -40,7 +40,7 @@ def average(numbers):
   return average_value
 
 
-# Get average and return the weighted values with 10% from homework, 30% from quizzes, and 60% from tests
+# Get average and return the weighted values with 10% from homework, 30% from quizzes, and 60% from tests.
 
 def get_average(student):
   homework = average(student["homework"])
@@ -50,7 +50,7 @@ def get_average(student):
   return homework * 0.1 + quizzes * 0.3 + tests * 0.6
   
 
-# Write new function for letter grade
+# Write new function for letter grade.
 
 def get_letter_grade(score):
   if score >= 90:
@@ -65,14 +65,14 @@ def get_letter_grade(score):
     return "F"
     
 
-# Get the letter grade for each student
+# Get the letter grade for each student.
 
 print (get_letter_grade(get_average(lloyd)))
 print (get_letter_grade(get_average(alice)))
 print (get_letter_grade(get_average(tyler)))
 
 
-# Calculate the average of class
+# Calculate the average of class.
 
 def get_class_average(class_list):
   results = []
@@ -81,7 +81,7 @@ def get_class_average(class_list):
   return average(results)
 
 
-# Determine the average grade and letter grade for the class
+# Determine the average grade and letter grade for the class.
 
 avg = get_class_average(students)
 print avg
