@@ -5,3 +5,5 @@ This folder contains other python codes that I wrote.
 'Fruit_shop.py' uses dictionary to keep the inventory of a fruit shop.
 
 'Total_trip_cost.py' uses multiple functions to calculate total trip cost.
+
+'Students.py' uses dictionary to store student info and uses functions to calculate grades.
