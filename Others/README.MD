@@ -6,4 +6,4 @@ This folder contains other python codes that I wrote.
 
 'Total_trip_cost.py' uses multiple functions to calculate total trip cost.
 
-'Students.py' uses dictionary to store student info and uses functions to calculate grades.
+'Students.py' uses dictionaries to store students' info and uses functions to calculate grades.
