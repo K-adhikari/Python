@@ -4,7 +4,9 @@ A single ship will be hidden in a random location in the 5x5 board and the playe
 
 from random import randint 
 
+
 # Create an empty list board
+
 
 board = []
 
@@ -42,17 +44,20 @@ ship_col = random_col(board)
 
 # Print the value of ship_row. Print the value of ship_col.
 
+
 print(ship_row)
 print(ship_col)
 
 
 # Make sure the player gets only 5 guesses. So, everything from here needs to go in a loop.
 
+
 for Turn in range(4):
   
 
 # Create a new variable called guess_row and set it to int(raw_input("Guess Row: ")). 
 # Create a new variable called guess_col and set it to int(raw_input("Guess Col: ")).
+  
 
   guess_row = int(raw_input("Guess Row: "))
   guess_col = int(raw_input("Guess Col: "))
