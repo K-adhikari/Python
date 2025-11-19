@@ -45,9 +45,11 @@ ship_col = random_col(board)
 print(ship_row)
 print(ship_col)
 
+
 # Make sure the player gets only 5 guesses. So, everything from here needs to go in a loop.
 
 for Turn in range(4):
+  
 
 # Create a new variable called guess_row and set it to int(raw_input("Guess Row: ")). 
 # Create a new variable called guess_col and set it to int(raw_input("Guess Col: ")).
