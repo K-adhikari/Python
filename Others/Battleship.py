@@ -1,5 +1,5 @@
-
-#one-player version of classic board game Battleship. A single ship will be hidden in a random location in the 5x5 board and the player has to guess the location of the ship
+""" one-player version of classic board game Battleship.
+A single ship will be hidden in a random location in the 5x5 board and the player has to guess the location of the ship."""
 
 
 from random import randint 
