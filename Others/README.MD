@@ -7,3 +7,5 @@ This folder contains other python codes that I wrote.
 'Total_trip_cost.py' uses multiple functions to calculate total trip cost.
 
 'Students.py' uses dictionaries to store students' info and uses functions to calculate grades.
+
+'Battleship.py' contains code to create a classic boardgame battleship where a user is prompted to guess randomly generated numbers.
