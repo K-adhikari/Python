@@ -10,4 +10,4 @@ This folder contains other python codes that I wrote.
 
 'Battleship.py' contains code to create a classic boardgame battleship where a user is prompted to guess randomly generated numbers.
 
-'Grades_stats.ipynb' contains code to calculate sum, average, variance, and standard deviation from the provided grades.
+'Grades_stats.ipynb' contains code to calculate sum, average, variance, and standard deviation from the provided grades. This uses calling a function within a function.
