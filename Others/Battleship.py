@@ -4,9 +4,7 @@ A single ship will be hidden in a random location in the 5x5 board and the playe
 
 from random import randint 
 
-
 # Create an empty list board
-
 
 board = []
 
