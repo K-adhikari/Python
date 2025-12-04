@@ -8,14 +8,13 @@ This folder contains python codes that I wrote while taking various courses:
 
 'Fruit_shop.py' uses dictionary to keep the inventory of a fruit shop.
 
-'Total_trip_cost.py' uses multiple functions to calculate total trip cost.
-
-'Students.py' uses dictionaries to store students' info and uses functions to calculate grades.
-
-
+'Functions.ipynb' contains a bunch of different functions.
 
 'Grades_stats.ipynb' contains code to calculate sum, average, variance, and standard deviation from the provided grades. This uses calling a function within a function.
 
-'DNA_pattern_matching.ipynb' contains code to match nucleotide pattern, find frequencies of those patterns, find the most frequent k-mer, and the position of the k-mer in the given sequence.
+'Students.py' uses dictionaries to store students' info and uses functions to calculate grades.
 
-'Functions.ipynb' contains a bunch of different functions.
+'Total_trip_cost.py' uses multiple functions to calculate total trip cost.
+
+
+
