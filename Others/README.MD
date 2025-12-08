@@ -12,6 +12,8 @@ This folder contains python codes that I wrote while taking various courses:
 
 'Grades_stats.ipynb' contains code to calculate sum, average, variance, and standard deviation from the provided grades. This uses calling a function within a function.
 
+'lambda_expressions.ipynb' contains code that uses slicing, filter(), and lamda expressions.
+
 'Students.py' uses dictionaries to store students' info and uses functions to calculate grades.
 
 'Total_trip_cost.py' uses multiple functions to calculate total trip cost.
